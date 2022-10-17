@@ -1,0 +1,370 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000c15;
+}
+h1, h5{
+
+    color: #f3e2ba;
+    position: relative;
+    top:-50px; 
+    font-family: Archeologicaps;
+}
+ul{
+    padding-left: 20px;
+}
+.Atlantis{
+    font-size: 54px;
+}
+
+header{
+width: 100%;
+padding: 0;
+margin: 0;
+
+}
+header nav button{
+    margin: 0;
+
+}
+header img{
+    position: relative;
+    top:-59px;
+    z-index: -1;
+}
+header nav li {
+    text-transform: uppercase;
+    font-family: Archeologicaps;
+    font-size: 11px;
+    color: wheat;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-left: 20px;
+}
+
+
+
+#first-session{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    top: 0px;
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    font-size: smaller;
+    padding-left:20px;
+    padding-right: 20px;
+   
+    
+}
+
+#first-session img {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+@media all and (max-width: 767px) {
+    #first-session {
+        top: 150px;
+    }
+    #first-session img{
+        width: 300px;
+        height: 200px;     
+    }
+    
+    #first-session .titles{
+        font-size: 2px;   
+    }
+  
+  }
+button{
+    padding: 20px;
+    
+    color: aliceblue;
+    border: 2px solid rgb(224, 207, 207);
+    border-radius: 10px;
+    margin: 30px;
+    background: rgba(19, 39, 68, 0.1);
+    text-transform: uppercase;
+ 
+ }
+ @media all and (max-width: 767px) {
+   #first-session button{
+        position: relative;
+        top: -60px;
+   }  
+ }
+ #first-session .item p{
+    
+    position: absolute;
+    bottom:60px;
+    left: 0px;
+    right: 0;
+    color: aliceblue;
+    padding: 20px;
+    font-family:raleway ;
+    color: white;
+    font-size: small;
+  
+    padding: 20px;
+    margin: auto;
+}
+
+@media all and (max-width: 767px) {
+    #first-session  .item p{
+        max-width: 300px;
+    }
+    #first-session  .item h1{
+        font-size: x-small;
+    }
+  }
+.owl-nav{
+    display: none;
+}
+ /*
+.imgofhead img{
+    width: 100%;
+    height: 100%;
+}
+.imgofhead{
+    max-height: 250px;
+}
+.imgofhead p{
+    position: absolute;
+    bottom:30;
+    left: 0;
+    right: 0;
+    color: aliceblue;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+} */
+.secondsession{
+    color: white;
+}
+.thirdsecssion{
+    background-image: url('bg-4.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: inset 0 0 0 1000px rgba(2, 14, 22, 0.3);
+    height: 80vh;
+
+    width: 100%;
+    margin-bottom: 100px;
+}
+.forthsession ul{
+    color: white;
+    font-size: 13px;
+    list-style: none;
+}
+.forthsession ul li strong{
+    font-family: Archeologicaps;
+    color: wheat;
+    font-size: 18px;
+}
+.forthsession .social{
+    display: inline-flex;
+   
+}
+.social{
+    padding-left: 0px;
+}
+.social li {
+    display:flow-root;
+    padding: 10px;
+    text-align: center;
+}
+.news{
+    background: #172128;
+   color: wheat;
+    width:100% ;
+    margin: auto;
+}
+.news input{
+  
+    background: rgb(59, 57, 57);
+}
+.news span{
+    background: wheat;
+}
+.inputnews{
+    margin: auto;
+      max-width: 300px;
+    background: #000;
+    padding: 8px;
+}
+.input-group-text{
+    border-radius: 0px;
+}
+.footertitle{
+    margin-bottom: 20px;
+}
+.newslater{
+    display: inline-flex;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.newslater p{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+@media all and (max-width: 767px) {
+    .newslater{
+        display: block;
+    }
+  }
+.aboutsession{
+    background-image: url('aboutbg.jpg');
+    background-repeat: round
+    ;
+    background-size:cover; 
+    box-shadow: inset 0 0 0 1000px rgba(2, 14, 22, 0.8);
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+}
+@media all and (max-width: 767px) {
+    .aboutsession{
+        background-image:none;
+    }
+  }
+footer{
+    position: relative;
+    bottom: 0px;
+}
+.aboutsession{
+    color: white;
+    text-align: center;
+    
+    font-size: 14px;
+}
+.aboutsession p{
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+}
+.aboutsession div{
+    font-family:Archeologicaps ;
+    font-size: 20px;
+    color: wheat;
+    padding: 30px;
+}
+form .row div {
+    padding: 12px 12px 12px 0px;
+}
+form .row div input {
+   width: auto;
+}
+.contactsession{
+    background-image: url('bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    box-shadow: inset 0 0 0 1000px rgba(2, 14, 22, 0.8);
+    width: auto;
+    height: auto;
+    padding: 40px;
+    color: white;
+}
+@media all and (max-width: 767px) {
+    .contactsession{
+        background-image:none;
+    }
+  }
+.contactsession p {
+    font-family: raleway;
+    font-size: smaller;
+    font-weight: 300;
+    padding: 10px;
+}
+.contactsession h2{
+    font-family:Archeologicaps ;
+    color: wheat;
+}
+.contactsession form{height: 100%;}
+.contactsession form table {
+    height: 100%;
+}
+.contactsession .centercontactwithsm,table{
+    text-align: center;
+    margin: auto;
+}
+.contactsession form table tr td input {
+    border-radius: 5px;
+    height: 46px; ;
+}
+.contactsession form table tr td textarea {
+width: 200%;
+border-radius: 5px;
+
+}
+.contactsession form table tr td .submitbotton{
+    width: 200%;
+    background-color: wheat;
+}
+.gal h2{
+    font-family:Archeologicaps ;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+.gal .carousel-multi-item{
+    padding-top: 100px;
+}
+.thirdsecssion{
+    padding-top: 100px;
+}
+.thirdsecssion .item{
+    text-align: center;
+    margin: auto;
+}
+.thirdsecssion .item img{
+    width: 300px;
+    height: 200px;
+    z-index: -1;
+    margin: auto;
+}
+.thirdsecssion .item div{
+    max-width: 290px;
+    margin: auto;
+    position: absolute;
+    bottom:30px;
+    left: 0px;
+    right: 0;
+    color: aliceblue;
+    padding: 20px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family:Archeologicaps ;
+    color: wheat;
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+.thirdsecssion .item p{
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    right: 0;
+    font-size: smaller;
+    max-width: 280px;
+    color: white;
+    margin: auto;
+  
+}
+.thirdsecssion h3{
+    font-family:Archeologicaps ;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+}
+/* slide */
+/* end slide */
